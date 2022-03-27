@@ -1,0 +1,24 @@
+.contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    &:not(:last-child) {
+      padding-right: 16px;
+    }
+
+    &:last-child {
+      padding-right: 20px;
+    }
+
+  }
+}
+
+//.contacts__item:not(:last-child) {
+//    padding-right: 16px;
+//}
+//
+//.contacts__item:last-child {
+//    padding-right: 20px;
+//}

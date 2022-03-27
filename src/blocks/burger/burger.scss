@@ -1,0 +1,9 @@
+.burger {
+}
+
+@media (min-width: 768px) {
+  .burger--right-bottom {
+    border-right: 2px solid #EAEAEA;
+    border-radius: 1px;
+  }
+}

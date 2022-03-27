@@ -1,0 +1,17 @@
+.info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    border-left: 2px solid #EAEAEA;
+    border-radius: 1px;
+  &__item{
+    &:not(:last-child){
+      padding-right: 16px;
+    }
+  }
+}
+
+//.info__item:not(:last-child) {
+//    padding-right: 16px;
+//}

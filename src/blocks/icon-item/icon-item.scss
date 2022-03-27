@@ -1,0 +1,15 @@
+.icon-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--pink{
+       background-color: #FF3E79;
+     }
+}
+
+/*.icon-item--pink {*/
+/*    background-color: #FF3E79;*/
+/*}*/

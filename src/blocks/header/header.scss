@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 24px;
+}
+
+.header__container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__burger {
+  padding-right: 16px;
+}
+
+.header__logo {
+  padding-right: 16px;
+  @media (min-width: 768px) {
+    padding-left: 20px;
+  }
+}
+
+.header__right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__contacts {
+  display: none;
+  @media (min-width: 768px){
+    display: flex;
+  }
+}

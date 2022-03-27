@@ -1,4 +1,9 @@
 @import "variables";
+@import "../blocks/header/header";
+@import "../blocks/icon-item/icon-item";
+@import "../blocks/burger/burger";
+@import "../blocks/info/info";
+@import "../blocks/contacts/contacts";
 
 *, *:before, *:after {
   box-sizing: border-box;
