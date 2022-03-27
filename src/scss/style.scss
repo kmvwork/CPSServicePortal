@@ -1,0 +1,21 @@
+@import "variables";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  font-size: 1.6rem;
+  line-height: $line-height;
+  background-color: $color-main-background;
+  color: $color-text;
+}
