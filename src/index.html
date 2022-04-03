@@ -9,6 +9,10 @@
   <meta name="description" content="Мы являемся авторизованным сервисным центром по ремонту техники Dell.
     Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
     Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
   <title>CPS Service</title>
 </head>
 <body>
@@ -55,7 +59,41 @@
     </ul>
   </div>
 </header>
-<main></main>
+<main>
+  <section class="services">
+    <h2 class="title title__border services-title">Услуги и сервисы</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <h3 class="services-subtitle subtitle subtitle__active">Ремонтируемые устройства</h3>
+          <div class="services-description">
+            <p class="services-description__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+              отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+            <button class="services-description__button button button__all">Читать далее</button>
+          </div>
+          <img class="services-description__img" src="img/devices.png" alt="#">
+        </div>
+        <div class="swiper-slide">Дополнительные услуги</div>
+        <div class="swiper-slide">Цены на услуги</div>
+        <div class="swiper-slide">Адреса сервисных центров</div>
+        <div class="swiper-slide">Специальные цены</div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!--      <div class="swiper-button-prev"></div>-->
+      <!--      <div class="swiper-button-next"></div>-->
+
+      <!-- If we need scrollbar -->
+      <!--      <div class="swiper-scrollbar"></div>-->
+    </div>
+  </section>
+</main>
 <footer></footer>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>

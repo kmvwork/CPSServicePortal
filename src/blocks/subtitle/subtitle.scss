@@ -1,0 +1,13 @@
+.subtitle{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $color-text--gray;
+  padding: 8px 16px;
+
+  &__active{
+    border: 2px solid $color-border;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,21 @@
+.services-description{
+  max-width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.services-description__text{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: $color-text;
+}
+
+.services-description__img{
+  width: 320px;
+  height: 230px;
+}
+
+
